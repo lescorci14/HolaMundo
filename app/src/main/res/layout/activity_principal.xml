@@ -34,7 +34,16 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/txtNombre" />
+            android:id="@+id/txtNombre"
+            android:hint="@string/nombre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtApellido"
+            android:hint="@string/apellido" />
 
         <Button
             android:layout_width="match_parent"
@@ -43,9 +52,5 @@
             android:text="@string/saludar"
             android:onClick="saludar" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lblMensaje" />
     </LinearLayout>
 </RelativeLayout>
